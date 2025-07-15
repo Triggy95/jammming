@@ -1,6 +1,6 @@
 import React from "react";
-import styles from 'src\Track\Track.module.css';
-import PlayButton from 'src\PlayButton\PlayButton.js';
+import styles from './Track.module.css';
+import PlayButton from '../PlayButton/PlayButton';
 
 export default function Track({
     trackName,

@@ -1,6 +1,6 @@
 import React from "react";
-import Tracklist from 'src\Tracklist\Tracklist.js';
-import styles from 'src\SearchResults\SearchResults.module.css';
+import Tracklist from '../Tracklist/Tracklist';
+import styles from '../SearchResults/SearchResults.module.css';
 
 export default function SearchResults({ SearchResults, handleAddToPlaylist}){
     return (

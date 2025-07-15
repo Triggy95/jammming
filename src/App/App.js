@@ -6,12 +6,12 @@ import Playlist from "../Playlist/Playlist";
 
 import styles from "./App.module.css";
 
-import Spotify from "src\utils\spotifyAPI.js";
+import Spotify from "../utils/spotifyAPI";
 
 import routes from "../utils/routes";
 import ProfileHeader from "../ProfileHeader/ProfileHeader";
 
-import { UserProfileContext } from "../../contexts/UserProfileContext";
+import { UserProfileContext } from "../contexts/UserProfileContext";
 
 const PlayPreviewContext = createContext(null);
 const PlayingTrackContext = createContext(null);

@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import Spotify from "../utils/spotifyAPI";
-import { userProfileContext } from "../../contexts/UserProfileContext";
+import { userProfileContext } from "../contexts/UserProfileContext";
 import styles from "./ProfileHeader.module.css";
 
 const ProfileHeader = () => {

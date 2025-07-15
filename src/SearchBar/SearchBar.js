@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from 'src/SearchBar/SearchBar.module.css'
+import styles from '../SearchBar/SearchBar.module.css'
 
 export default function SearchBar({
     setSearchValue,

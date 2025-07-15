@@ -1,6 +1,6 @@
 import React from "react";
 import Track from "../Track/Track";
-import styles from 'src\Tracklist\Tracklist.module.css';
+import styles from '../Tracklist/Tracklist.module.css';
 
 export default function Tracklist ({ tracks, handlePlaylistManagment, add}) {
     return (
